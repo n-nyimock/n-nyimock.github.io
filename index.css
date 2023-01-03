@@ -57,3 +57,7 @@
     line-height: 50px;
     
 }
+#form{
+    border: solid black;
+    word-spacing: 6rem;
+}
