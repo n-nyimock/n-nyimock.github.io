@@ -1,0 +1,59 @@
+.Home {
+    background-color: rgb(177, 177, 186);
+    color: green;
+    height: 578px;
+    width: 500px;
+    margin: auto;
+    /* margin-top: 50px; */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.navbar {
+    align-items: center;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+    width: auto;
+    padding-left: 500px;
+    font-size: 24px;
+    display: flex;
+    
+}
+.navbar a {
+    display: flex;
+    text-align: center;
+    padding: 15px 18px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover {
+    color: blue;
+}
+.Experience {
+    background-color: rgb(177, 177, 186);
+    color: green;
+    height: 578px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.Home1 {
+    background-color: rgb(177, 177, 186);
+    height: 578px;
+    width: 500px;
+    /* margin: auto; */
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    
+}
