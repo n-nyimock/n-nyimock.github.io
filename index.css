@@ -1,5 +1,5 @@
 .Home {
-    background-color: rgb(177, 177, 186);
+    /* background-color: rgb(177, 177, 186); */
     color: green;
     height: 100%;
     width: 70%;
@@ -35,7 +35,7 @@
     color: blue;
 }
 .Experience {
-    background-color: rgb(177, 177, 186);
+    /* background-color: rgb(177, 177, 186); */
     color: green;
     height: 578px;
     width: 500px;
@@ -46,7 +46,7 @@
     line-height: 50px;
 }
 .Home1 {
-    background-color: rgb(177, 177, 186);
+    /* background-color: rgb(177, 177, 186); */
     height: 578px;
     width: 500px;
     /* margin: auto; */
