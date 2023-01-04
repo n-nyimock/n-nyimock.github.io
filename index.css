@@ -13,6 +13,7 @@
     color: white;
     text-decoration: none;
     padding: 15px 18px;
+    border-radius: 20px;
 }
 .navbar a:hover{
     color: red;
@@ -61,4 +62,8 @@ table{
 th, td{
     border: 1px solid white;
     background-color: aquamarine;
+}
+#first{
+    background-color: blue;
+    border-radius: 25px;
 }
