@@ -26,13 +26,14 @@
     display: flex;
     text-align: center;
     padding: 15px 18px;
-    float: left;
+    float: right;
     color: white;
+    padding-left: 30px;
     text-decoration: none;
     
 }
 .navbar a:hover {
-    color: blue;
+    color:red;
 }
 .Experience {
     /* background-color: rgb(177, 177, 186); */
@@ -60,4 +61,7 @@
 #form{
     border: solid black;
     word-spacing: 6rem;
+}
+a:hover{
+    color: red;
 }
