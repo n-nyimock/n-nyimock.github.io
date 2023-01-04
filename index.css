@@ -1,24 +1,3 @@
-body{
-    background-image: url(/imgs/linkedin.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.Home {
-    /* background-color: rgb(177, 177, 186); */
-    color: green;
-    height: 100%;
-    width: 70%;
-    margin: auto;
-    /* margin-top: 50px; */
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
-    
-}
 .navbar {
     align-items: center;
     top: 0;
@@ -29,48 +8,56 @@ body{
     font-size: 24px;
     display: flex;
     text-align: center;
-    
 }
-.navbar a {
-    display: flex;
-    text-align: center;
-    padding: 15px 18px;
-    float: right;
+.navbar a{
     color: white;
-    padding-left: 30px;
     text-decoration: none;
-    
+    padding: 15px 18px;
 }
-.navbar a:hover {
-    color:red;
-}
-.Experience {
-    /* background-color: rgb(177, 177, 186); */
-    color: green;
-    height: 578px;
-    width: 500px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 5px;
-    font-size: 20px;
-    line-height: 50px;
-}
-.Home1 {
-    /* background-color: rgb(177, 177, 186); */
-    height: 578px;
-    width: 500px;
-    /* margin: auto; */
-    margin-top: 50px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
-    
-}
-#form{
-    border: solid black;
-    word-spacing: 6rem;
-}
-a:hover{
+.navbar a:hover{
     color: red;
+}
+.about{
+    text-align: center;
+    color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.profile{
+    text-align: center;
+    color: black;
+    line-height: 30px;
+    font-size: 20px;
+    list-style-position: inside;
+}
+.experience{
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 450px;
+    padding-top: 20px;
+    list-style-position: inside;
+}
+.Learn{
+    text-align: center;
+    color: black;
+    padding-left: 300px;
+    padding-right: 120px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.home{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+th, td{
+    border: 1px solid green;
 }
