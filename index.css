@@ -3,11 +3,12 @@
     top: 0;
     overflow: hidden;
     background-color: black;
-    width: auto;
+    width: 100%;
     padding-left: 300px;
     font-size: 24px;
     display: flex;
     text-align: center;
+
 }
 .navbar a{
     color: white;
