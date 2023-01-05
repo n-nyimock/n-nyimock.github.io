@@ -16,11 +16,18 @@
     <br>
     <b><h2>This is an example of a frame in HTML</h2></b>
     <iframe src="about.html" frameborder="500px" style="border: 2px solid red;" width="900px" height="500px" title="me"></iframe>
-    <p>THIS EXAMPLE WRITES "Hello Justice Welcome to Javascript Learning"</p>
+    <p>THIS EXAMPLE WRITES "Hello Justice Welcome to Javascript Learning!"</p>
     <p id="demo"></p>
     <script>
-        document.getElementById(demo).innerHTML="Hello Justice Welcome to Javascript Learning";
-    </script>
-    <H2>Good</H2>
+        function myFunction() {
+        document.getElementById("demo").innerHTML="Hello Justice Welcome to Javascript Learning";
+        document.getElementById("demo").style.color="white"
+        document.getElementById("demo").style.backgroundColor="Black"
+        document.getElementById("demo").style.fontSize="2em"
+    }
+        </script>
+        <button type="button" onclick="myFunction()">click mei</button>
+
+    <h2>Good</h2>
 </body>
 </html>
