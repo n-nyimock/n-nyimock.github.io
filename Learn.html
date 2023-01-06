@@ -21,7 +21,7 @@
     <b><h2>This is an example of a frame in HTML</h2></b>
     <iframe src="about.html" frameborder="500px" style="border: 2px solid red;" width="900px" height="500px" title="me"></iframe>
     <p>THIS EXAMPLE WRITES "Hello Justice Welcome to Javascript Learning!"</p>
-    <p id="demo"></p>
+    <p id="demo">great one there!</p>
 
 
     <script>
@@ -141,15 +141,6 @@ function stopWorker() {
 <h1>Getting server updates</h1>
 <div id="result"></div>
 
-
-<?php
-header('Content-Type: text/event-stream');
-header('Cache-Control: no-cache');
-
-$time = date('r');
-echo "data: The server time is: {$time}\n\n";
-flush();
-?>
 <script>
 if(typeof(EventSource) !== "undefined") {
   var source = new EventSource("demo_sse.php");

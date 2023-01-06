@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1 style="color: blueviolet;">Hello there! I am learning Java</h1>
+    <a href="/" style="text-decoration: none;" id="second">Home</a>
+    <h1 id="felix" style="color: blueviolet; display: none;" >Hello there! I am learning Java</h1><br><br>
+
+    <p>Java code to show current date and time, while replacing </p>
+    <button type="button" onclick="document.getElementById('justice').innerHTML=Date()">Click Me</button>
+    <p id="justice">Are you the one?</p><br><br>
+
+    <p>Javascript can hide a text</p>
+    <button type="button" onclick="document.getElementById('felix').style.display='none'">Hide me</button>
+
+    <p>Javascript can display a text</p>
+    <button type="button" onclick="document.getElementById('felix').style.display='block'">Display me</button>
+
+
+    <h2>Activate Debugging</h2>
+
+<p>F12 on your keyboard will activate debugging.</p>
+<p>Then select "Console" in the debugger menu.</p>
+<p>Then click Run again.</p>
+
+<script>
+console.log(5 + 6);
+</script>
+
+<button type="button" onclick="window.print()">Print Me</button>
 </body>
 </html>
