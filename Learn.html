@@ -71,5 +71,71 @@
         <input type="submit" value="submit" >
     </fieldset>
         </form>
+
+    <!-- <working with Geolocation API> -->
+    <p>Here we learn how to use API</p>
+    
+    <button onclick="getLocation()">Click Here To Let Us Know Your Location</button>
+    <p id="api"></p>
+    <script>
+        var j=document.getElementById("api");
+    
+    function getLocation() {
+        if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition,showError);
+}else{
+    j.innerHTML="NO";
+}
+}
+function showPosition(position) {
+  j.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br><br>Longitude: " + position.coords.longitude;
+}
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      j.innerHTML = "Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      j.innerHTML = "Location information not available."
+      break;
+    case error.TIMEOUT:
+      j.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      j.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+    </script>
+
+
+<!-- <p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button>
+<button onclick="stopWorker()">Stop Worker</button>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
+<script>
+var w;
+
+function startWorker() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("demo_workers.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+  }
+}
+
+function stopWorker() {
+  w.terminate();
+  w = undefined;
+} -->
+<!-- </script> -->
 </body>
 </html>
